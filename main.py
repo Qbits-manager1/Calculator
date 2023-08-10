@@ -1,8 +1,9 @@
 import PySimpleGUI as sg
+
 import math
 def format_history(prev_expressions):
   if len(prev_expressions) == 0:
-    return "No history to show"
+    return "No history how"
 
   n = min(len(prev_expressions), 6)
   history_str = "Last " + str(n) + " expressions:\n\n"
