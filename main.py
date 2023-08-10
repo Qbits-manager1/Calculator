@@ -3,7 +3,11 @@ import PySimpleGUI as sg
 import math
 def format_history(prev_expressions):
   if len(prev_expressions) == 0:
+<<<<<<< HEAD
     return "No history how"
+=======
+    return "No history"
+>>>>>>> parent of 6d7cd6a (Update main.py)
 
   n = min(len(prev_expressions), 6)
   history_str = "Last " + str(n) + " expressions:\n\n"
