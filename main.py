@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import math
 
 def calculator():
-  sg.theme('Dark Blue 2')
+  sg.theme('green 2')
   layout = [
     [
       sg.Input(key='input',
