@@ -4,13 +4,7 @@ import math
 def calculator():
   sg.theme('green 2')
   layout = [
-    [
-      sg.Input(key='input',
-               size=(20, 2),
-               do_not_clear=True,
-               font=('Arial', 16)),
-      sg.Button('X', size=(4, 2), button_color=('white', 'red'))
-    ],
+    
     [
       sg.Button('1', size=(4, 2), button_color=('white', 'green')),
       sg.Button('2', size=(4, 2), button_color=('white', 'blue')),
